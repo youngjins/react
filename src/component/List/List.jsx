@@ -36,7 +36,6 @@ export default function List({filter}) {
 
     }, []);
 
-
     return (
         <section>
             <ul>
@@ -54,8 +53,6 @@ export default function List({filter}) {
             <Add onAdd={handleAdd}/>
         </section>
     )
-
-
 
 }
 
